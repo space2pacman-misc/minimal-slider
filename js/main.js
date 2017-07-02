@@ -2,8 +2,7 @@ $(document).ready(function() {
 	var block = $(".minimal-slider__block");
 	var box = $(".minimal-slider__box");
 	var img = $(".minimal-slider__box img");
-	var slide_count = box.children().length;
-	var slide_width = 100.0 / slide_count;
+	var slide_count = img.length;
 	var slide_index = 0;
 	
 	block.width(img.width());
