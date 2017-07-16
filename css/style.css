@@ -3,7 +3,7 @@ body {
 	padding: 0;
 }
 
-.minimal-slider__block {
+.minimal-slider__container {
 	overflow: hidden;
     margin: 0 auto;
 }
